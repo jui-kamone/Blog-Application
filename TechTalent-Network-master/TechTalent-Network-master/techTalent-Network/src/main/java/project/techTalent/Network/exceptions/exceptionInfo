@@ -1,0 +1,25 @@
+// If id is not valid or do not exist in database
+//it gives internal sever error and to handle that we provide customized message
+// this customized message is designed:-
+//first create customized exception class , throw that exception inside method 
+//using new keyword where is possibility of coming that exception
+// create folder global exception
+//provide handler method for customized exception
+// if customized exception raised how to handle that exception
+//create APIResponse class which is used to print customized message at runtime
+
+
+//halder method is of type ApiResponse class which give customized exception
+//Create APiresponse obj and fetch message from raised exception stoore it 
+
+//Mapping
+Post have 2 parents user and category
+
+first add 2 extra column in child class thai is category and user in post entity.
+go to respective parent put OneToMant add mapped by - reference variable creted in post class of category
+same for user
+
+CascadeType  , fetchType
+
+//In post put ManyToOne 
+// you can add JoinColum
